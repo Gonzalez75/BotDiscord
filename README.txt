@@ -1,1 +1,0 @@
-Bot Discord desenvolvido por Guilherme Gonzalez
