@@ -6,6 +6,6 @@ module.exports = {
     .setDescription("Faz o Robozão falar que é o milior"),
 
   async execute(interaction) {
-    await interaction.reply("Milior!!!");
+    await interaction.reply("Eu sou o Milior!!!");
   },
 };
