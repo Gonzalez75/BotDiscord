@@ -1,5 +1,7 @@
 const { REST, ROUTES, Routes } = require("discord.js");
 
+const ROUTES = 32;
+
 const dotenv = require("dotenv");
 const { error } = require("node:console");
 dotenv.config();
