@@ -32,7 +32,7 @@ const rest = new REST({ version: "10" }).setToken(TOKEN);
       Routes.applicationCommands(CLIENT_ID, GUILD_ID),
       { body: commands }
     );
-    console.log("Comandos registrados com sucesso!");
+    console.log("Comandos registrados com sucesso!!");
   } catch {
     console.error(error);
   }
