@@ -23,7 +23,7 @@ for (const file of commandFiles) {
     client.command.set(command.data.name, command);
   } else {
     console.log(
-      `Esse comando em ${filePath} está com "data" ou "execute" ausentes`
+      `Esse comando está em ${filePath} com "data" ou "execute" ausentes`
     );
   }
 }
